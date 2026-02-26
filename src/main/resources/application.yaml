@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ramadan-clock
+
+logging:
+  level:
+    root: INFO
+    com.ramadan.ramadan_clock: DEBUG 
+    org.springframework.web: DEBUG     
